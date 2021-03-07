@@ -1,12 +1,15 @@
 
-import { Document } from 'react-pdf/dist/umd/entry.webpack';
 
+import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack'
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const Resume = () => {
     return (
-        <div>
-            <Document file="https://1drv.ms/b/s!AmQ6F7UewkJegaZBGR0o7WSJs3CDrg" />
-        </div>
+       
+            <Document className="pdf-rule" file="HugoResume.pdf" >
+                <Page pageNumber={1} renderTextLayer={false} />
+            </Document>
+       
     )
 }
 

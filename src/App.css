@@ -56,3 +56,7 @@
   color: #fff;
   border-bottom-color: #fff;
 }
+
+.pdf-rule {
+  overflow-x: hidden
+}
