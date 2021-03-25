@@ -9,7 +9,7 @@ function App() {
 
   const [currentPage, setCurrentPage] = useState("");
   useEffect(() => {
-    const setHomePage= () => {
+    const setHomePage = () => {
       setCurrentPage("Home");
     }
     setHomePage();
@@ -19,14 +19,13 @@ function App() {
     <div className="App d-flex h-100 text-center text-white bg-dark">
 
       <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        
-        <Navbar setDisplayPage={setCurrentPage}/>
-        
-        {currentPage === "Home" ? <Cover /> : currentPage === "Resume" ? <Resume /> : <Cover/> }
 
+        <Navbar setDisplayPage={setCurrentPage} />
+
+        {currentPage === "Home" ? <Cover /> : currentPage === "Resume" ? <Resume /> : <Cover />}
 
         <Footer />
-        
+
       </div>
 
     </div>

@@ -6,7 +6,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const Resume = () => {
     return (
        
-            <Document className="pdf-rule" file="HugoResume.pdf" >
+            <Document file="HugoResume.pdf" >
                 <Page pageNumber={1} renderTextLayer={false} />
             </Document>
        
