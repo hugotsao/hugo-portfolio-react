@@ -24,9 +24,8 @@
 
 
 .cover-container {
-  max-width: 42em;
+  max-width: 50em;
 }
-
 
 /*
  * Header
@@ -58,5 +57,13 @@
 }
 
 main {
-  height: 85vh;
+  height: 90vh;
+}
+
+.resume-subtitle {
+  text-align: center
+}
+.markdown-align-left {
+  text-align: left;
+  font-family:Courier
 }

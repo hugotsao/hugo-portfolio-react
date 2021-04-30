@@ -1,30 +1,33 @@
 import './App.css';
-import Footer from './containers/Footer';
 import Navbar from './containers/Navbar';
-import { useState, useEffect } from 'react';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Cover from './containers/Cover';
-import Resume from './containers/Resume';
+import WorkExp from './containers/WorkExp';
+import About from './containers/About';
 
 function App() {
-
-  const [currentPage, setCurrentPage] = useState("");
-  useEffect(() => {
-    const setHomePage = () => {
-      setCurrentPage("Home");
-    }
-    setHomePage();
-  }, []);
 
   return (
     <div className="App d-flex h-100 text-center text-white bg-dark">
 
       <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-
-        <Navbar setDisplayPage={setCurrentPage} />
-
-        {currentPage === "Home" ? <Cover /> : currentPage === "Resume" ? <Resume /> : <Cover />}
-
-        <Footer />
+        <Navbar />
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/">
+              <Redirect to="/home" />
+            </Route>
+            <Route path="/home">
+              <Cover />
+            </Route>
+            <Route path="/work">
+              <WorkExp />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+          </Switch>
+        </BrowserRouter>
 
       </div>
 
