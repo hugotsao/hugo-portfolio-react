@@ -5,9 +5,8 @@ const Cover = () => {
 
   return (
     <main className="px-3">
-      <h1>Welcome to Hugo's page</h1>
-
-      <p className="lead">I'm a Developer with 9 years experience. I enjoy watching sports in my spare time.</p>
+      <h1>Hugo Cao</h1>
+      <p className="lead">A Software engineer by trade with 9 years experience.</p>
       <div className="container">
         <div className="row">
           <div className="col-6 markdown-align-left">
