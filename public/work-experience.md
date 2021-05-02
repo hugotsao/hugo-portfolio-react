@@ -1,7 +1,13 @@
+**Magic Memories / Software Engineer**
+
+
+*Feb 2021 -  now : remote*
+* Design and implement the Quality Assurance platform for staff to manually edit media after the automatic media processing.
+---
 **Amazon Alexa Entity Resolution / Software Development Engineer**
 
 
-*May 2018 - : Toronto, Canada*
+*May 2018 - Auguest 2020 : Toronto, Canada*
 * Implemented cross account ElesticSearch reindexing Service using on AWS platform
 * Led cross-team effort to make radio callsign get worldwide matching with machine learningmodel while replacing regular expression
 * Fit in Japanese transliteration model into Alexa runtime using Amazon internal CICD and build tools
@@ -25,7 +31,7 @@
 **Deutsche Bank  / JAVA Developer**
 
 
-*Aug 2014 - Aug 2015 :Cary,North Carolina*
+*Aug 2014 - Aug 2015 : Cary,North Carolina*
 * Collaborated and participate in the broker information- mapping system design for clearing house using Java GUI framework GWT-GXT
 * Implemented logic layer for the mapping system: four-eye checker, workflow.
 ---

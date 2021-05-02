@@ -8,7 +8,7 @@ import Educations from './containers/Educations';
 
 function App() {
   const darkTheme = "text-light bg-dark"
-  const lightTheme = "text-dark bg-white"
+  const lightTheme = "text-dark bg-light"
   const [theme, setTheme] = useState(darkTheme)
   return (
     <BrowserRouter>

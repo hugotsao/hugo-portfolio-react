@@ -1,14 +1,8 @@
-import { useState } from 'react';
 const Cover = () => {
+  /*
   const [showF1, setShowF1] = useState(false)
   const [showNFL, setShowNFL] = useState(false)
-
-  return (
-    <main className="px-3">
-      <h1>Hugo Cao</h1>
-      <p className="lead">A Software engineer by trade with 9 years experience.</p>
-      <div className="container">
-        <div className="row">
+  <div className="row">
           <div className="col-6 markdown-align-left">
             <strong>Favorite things in F1:</strong>
             <button className="btn btn-info" hidden={showF1} onClick={() => setShowF1(!showF1)}>click to show</button>
@@ -23,7 +17,7 @@ const Cover = () => {
           </div>
           <div className="col-6 markdown-align-left">
             <strong>Favorite things in NFL:</strong>
-            <button className="btn btn-info"  hidden={showNFL} onClick={() => setShowNFL(!showNFL)}>click to show</button>
+            <button className="btn btn-info" hidden={showNFL} onClick={() => setShowNFL(!showNFL)}>click to show</button>
             <div hidden={!showNFL}>
               <ul>
                 <li>QB: Payton Manning</li>
@@ -33,6 +27,31 @@ const Cover = () => {
               <button className="btn btn-danger" onClick={() => setShowNFL(!showNFL)}>TMI</button>
             </div>
           </div>
+        </div>
+  */
+  return (
+    <main className="px-3">
+      <h1>Hugo Cao</h1>
+      <p className="lead">A simple programmer passionate about technologies.</p>
+      <div className="container">
+        <div className="row">
+          <div className="col markdown-align-left">
+            <strong>AWS</strong><br />
+              IAM, APIGateway, CloudFormation, Lambda
+          </div>
+          <div className="col markdown-align-left">
+            <strong>Web Services</strong><br />
+            <ul>
+              <li>
+              Backend: Java, FastAPI</li>
+              <li>Frontend: React</li>
+              </ul>
+            </div>
+
+          <div className="col markdown-align-left">
+            <strong>Other Tools</strong><br />
+          Git, Maven, CI/CD tools, Linux, Emacs, Vim
+        </div>
         </div>
       </div>
     </main>
