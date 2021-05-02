@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/personal_page/static/css/main.c3320651.chunk.css",
-    "main.js": "/personal_page/static/js/main.64ed89f4.chunk.js",
-    "main.js.map": "/personal_page/static/js/main.64ed89f4.chunk.js.map",
-    "runtime-main.js": "/personal_page/static/js/runtime-main.8061c204.js",
-    "runtime-main.js.map": "/personal_page/static/js/runtime-main.8061c204.js.map",
-    "static/js/2.fa4a4797.chunk.js": "/personal_page/static/js/2.fa4a4797.chunk.js",
-    "static/js/2.fa4a4797.chunk.js.map": "/personal_page/static/js/2.fa4a4797.chunk.js.map",
-    "static/js/3.364428ea.chunk.js": "/personal_page/static/js/3.364428ea.chunk.js",
-    "static/js/3.364428ea.chunk.js.map": "/personal_page/static/js/3.364428ea.chunk.js.map",
-    "index.html": "/personal_page/index.html",
-    "static/css/main.c3320651.chunk.css.map": "/personal_page/static/css/main.c3320651.chunk.css.map",
-    "static/js/2.fa4a4797.chunk.js.LICENSE.txt": "/personal_page/static/js/2.fa4a4797.chunk.js.LICENSE.txt"
+    "main.css": "/hugo-portfolio-react/static/css/main.c3320651.chunk.css",
+    "main.js": "/hugo-portfolio-react/static/js/main.64ed89f4.chunk.js",
+    "main.js.map": "/hugo-portfolio-react/static/js/main.64ed89f4.chunk.js.map",
+    "runtime-main.js": "/hugo-portfolio-react/static/js/runtime-main.08a26072.js",
+    "runtime-main.js.map": "/hugo-portfolio-react/static/js/runtime-main.08a26072.js.map",
+    "static/js/2.fa4a4797.chunk.js": "/hugo-portfolio-react/static/js/2.fa4a4797.chunk.js",
+    "static/js/2.fa4a4797.chunk.js.map": "/hugo-portfolio-react/static/js/2.fa4a4797.chunk.js.map",
+    "static/js/3.364428ea.chunk.js": "/hugo-portfolio-react/static/js/3.364428ea.chunk.js",
+    "static/js/3.364428ea.chunk.js.map": "/hugo-portfolio-react/static/js/3.364428ea.chunk.js.map",
+    "index.html": "/hugo-portfolio-react/index.html",
+    "static/css/main.c3320651.chunk.css.map": "/hugo-portfolio-react/static/css/main.c3320651.chunk.css.map",
+    "static/js/2.fa4a4797.chunk.js.LICENSE.txt": "/hugo-portfolio-react/static/js/2.fa4a4797.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8061c204.js",
+    "static/js/runtime-main.08a26072.js",
     "static/js/2.fa4a4797.chunk.js",
     "static/css/main.c3320651.chunk.css",
     "static/js/main.64ed89f4.chunk.js"
