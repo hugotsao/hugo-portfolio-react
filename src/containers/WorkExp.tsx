@@ -5,7 +5,7 @@ const WorkExp = () => {
     const [workExp, setWorkExp] = useState('')
     useEffect(() => {
         const readFile = async () => {
-            const data = await fetch('work-experience.md')
+            const data = await fetch(`${process.env.PUBLIC_URL}/work-experience.md`)
             const fileContent = await data.text()
             setWorkExp(fileContent)
         }

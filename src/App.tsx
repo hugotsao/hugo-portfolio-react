@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './containers/Navbar';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route, Redirect } from 'react-router-dom';
 import { useState } from 'react';
 import Cover from './containers/Cover';
 import WorkExp from './containers/WorkExp';
@@ -11,7 +11,7 @@ function App() {
   const lightTheme = "text-dark bg-light"
   const [theme, setTheme] = useState(darkTheme)
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="container mw-100 header-box">
         <div className="row">
           <div className="col-10">
@@ -32,14 +32,16 @@ function App() {
       </div>
       <div className={`App d-flex h-100 text-center ${theme}`}>
         <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-          <Route exact path="/" component={Cover} />
-          <Route path="/home" component={Cover} />
+          <Route exact path="/">
+            <Redirect to="/home" />
+          </Route>
+          <Route path="/home" component={Cover}>
+            </Route>
           <Route path="/work" component={WorkExp} />
           <Route path="/educations" component={Educations} />
-
         </div>
       </div>
-    </BrowserRouter >
+    </HashRouter>
   );
 }
 

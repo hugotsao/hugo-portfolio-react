@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 const Educations = () => {
-
     const [content, setContent] = useState("")
     useEffect(() => {
         const readFile = async () => {
-            const data = await fetch("educations.md")
+            const data = await fetch(`${process.env.PUBLIC_URL}/educations.md`)
             const text = await data.text()
             setContent(text)
         }
