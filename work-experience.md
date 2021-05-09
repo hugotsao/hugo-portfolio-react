@@ -22,7 +22,7 @@
 **IBM / Software Engineer** 
 
 
-*Oct 2015 - July 2017 : Beijing,China*
+*Oct 2015 - July 2017 : Beijing, China*
 * Added new component Titan into product to provide graphDB feature
 * Created the automated process for the Titan installation using Python 
 * Collaborated with worldwide team to make Titan to cooperate with other components
@@ -31,7 +31,7 @@
 **Deutsche Bank  / JAVA Developer**
 
 
-*Aug 2014 - Aug 2015 : Cary,North Carolina*
+*Aug 2014 - Aug 2015 : Cary, North Carolina*
 * Collaborated and participate in the broker information- mapping system design for clearing house using Java GUI framework GWT-GXT
 * Implemented logic layer for the mapping system: four-eye checker, workflow.
 ---
@@ -40,4 +40,4 @@
 
 *Dec2012 -Jul 2014 : Arlington,Virginia*
 * Implemented Android app to control webcam using Node.js and ApacheCordova
-* Builtwordpress plugins using php for company website
+* Built wordpress plugins using php for company website
