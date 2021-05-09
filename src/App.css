@@ -32,16 +32,13 @@
   border-bottom: .25rem solid transparent;
 }
 
-.nav-masthead .nav-link:hover {
-  cursor: pointer
-}
-
-.nav-masthead {
+.nav-items {
   color: #fff;
   border-bottom-color: #fff;
 }
-.nav-masthead:hover {
+.nav-items:hover {
   color: black;
+  cursor: pointer
 }
 .active {
   color:black;
@@ -73,4 +70,10 @@ p {
 }
 h4 {
   text-align:center;
+}
+.font-awesome {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: x-large;
 }
