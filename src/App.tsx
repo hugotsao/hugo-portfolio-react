@@ -30,8 +30,8 @@ function App() {
                 setTheme(darkTheme)
               }}} title="light swtich"/>
               <FontAwesomeIcon icon={faFileDownload} className="nav-items" onClick={() => genPDF()} title="Download PDF version"/>
-              <FontAwesomeIcon icon={faLinkedinIn} className="nav-items" onClick={() => {window.open("https://github.com/hugotsao", '_blank');}} title="Go to my LinkedIn page" />
-              <FontAwesomeIcon icon={faGithub} className="nav-items" onClick={() => {window.open("https://www.linkedin.com/in/huicao/", '_blank');}} title="Go to my github page" />
+              <FontAwesomeIcon icon={faLinkedinIn} className="nav-items" onClick={() => {window.open("https://www.linkedin.com/in/huicao/", '_blank');}} title="Go to my LinkedIn page" />
+              <FontAwesomeIcon icon={faGithub} className="nav-items" onClick={() => {window.open("https://github.com/hugotsao", '_blank');}} title="Go to my github page" />
               <FontAwesomeIcon icon={faEnvelope} className="nav-items" title="Send me an email" onClick={() => {sendEmail(); return false}}/>
           </div>
         </div>
